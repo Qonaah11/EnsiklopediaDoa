@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_c8ad2c7a23cfe5ffda1af3c2b9bc8364c520ebce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_3aa792ab380ad136f188147e00a14b82e0e114fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_4b5a7405904f1768f36d91f15658fddad0ef047a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ac666fc2b50e738fbf33be88ae4e915d17a55861">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6ffc88b0a44fc5310a7fd50f191469ec91a57bb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qona&apos;ah\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_f5fe095430bf11c847033ffe07c9839690ffc221\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_e401388bbb823c0e320232777bf1954f67bd7bad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9c9152fc4c8658cd2003521f1b4e15e0f4835b03">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ad6c9becadfec0e653c7f09d53f739ba0f4e15b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_21e951ebdbed1d52f882bfb3a681d5263d1b643e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_93317fc4af22bd03bdc4ea868819e690f1f0a8f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Qona&apos;ah\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_1a4bfd13c86b7541eb774f4c9cc540347546e755\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_32534c6a1aabc285f87df347b7d5cad8983d133f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_672469b1c64fdbe7059d8957a42d526facc9be2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.1.0_cbfe40136f1c9fa9fef9ac03373455659f29c2dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_af5e44bcd7b1d5d5cab8c90885f108a3b7b75f12\classes.dex" />
+    </item>
+
+</items>

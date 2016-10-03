@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    android:background="@color/blue"
+    tools:context=".acyivity.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Pilih Kategori"
+        android:textSize="25sp"
+        android:layout_weight="0.04" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_satu"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/iman"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_satu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20sp"
+        android:padding="5dp"
+        android:text="Shiroh"
+        android:textSize="20sp"
+       android:textColor="@color/white" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_islam"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/text1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/islam" />
+
+    <TextView
+        android:id="@+id/text_dua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_islam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20sp"
+        android:text="10 Nama Malaikat"
+        android:textSize="20sp"
+        android:textColor="@color/white" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_iman"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/text_dua"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/doa" />
+
+    <TextView
+        android:id="@+id/text_tiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_iman"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-15sp"
+        android:text="Doa Harian"
+        android:textSize="20sp"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

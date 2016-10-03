@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="22"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="4513720338304"
+    token="6554694127741297802"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="623" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="86" />
+    <task
+        name="verifier"
+        duration="14" />
+
+    <artifact
+        location="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="4411378086420"
+        verifier="MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="4513720338304"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

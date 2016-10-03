@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qonaah.ensiklopediadoa">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".acyivity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".acyivity.MainActivity" />
+        <activity android:name=".acyivity.SubShirohActivity" />
+        <activity android:name=".acyivity.SubNamaActivity" />
+        <activity android:name=".acyivity.SubDoaActivity" />
+        <activity android:name=".acyivity.DetailsActivity" />
+        <activity android:name=".acyivity.DetailShirohActivity" />
+        <activity android:name=".acyivity.DetailDoaActivity" />
+        <activity android:name=".acyivity.AddContentActivity" />
+        <activity android:name=".acyivity.AddContentNamaActivity" />
+        <activity android:name=".acyivity.AddContentShirohActivity"/>
+        <activity android:name=".acyivity.ActionNamaActivity"/>
+        <activity android:name=".acyivity.UbahNamaActivity"/>
+        <activity android:name=".acyivity.ActionDoaActivity"/>
+        <activity android:name=".acyivity.UbahDoaActivity"/>
+        <activity android:name=".acyivity.ActionShirohActivity"/>
+        <activity android:name=".acyivity.UbahShirohActivity"/>
+
+
+    </application>
+
+</manifest>
