@@ -15,7 +15,6 @@ import com.example.qonaah.ensiklopediadoa.R;
 public class DetailShirohActivity extends AppCompatActivity {
 
     private WebView webView;
-
     @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
