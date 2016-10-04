@@ -32,6 +32,9 @@
         <activity android:name=".acyivity.UbahDoaActivity"/>
         <activity android:name=".acyivity.ActionShirohActivity"/>
         <activity android:name=".acyivity.UbahShirohActivity"/>
+        <activity android:name=".acyivity.HapusShirohActivity"/>
+        <activity android:name=".acyivity.HapusDoaActivity"/>
+        <activity android:name=".acyivity.HapusNamaActivity"/>
 
 
     </application>

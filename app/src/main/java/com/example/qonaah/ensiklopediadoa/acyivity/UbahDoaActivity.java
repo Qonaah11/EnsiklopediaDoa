@@ -9,7 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.example.qonaah.ensiklopediadoa.R;
-import com.example.qonaah.ensiklopediadoa.adapter.RecycleDoaActivity;
+import com.example.qonaah.ensiklopediadoa.adapter.RecycleDoaAdapter;
 import com.example.qonaah.ensiklopediadoa.model.Hari;
 import com.example.qonaah.ensiklopediadoa.service.DatabaseHelper;
 
@@ -20,12 +20,12 @@ import java.util.List;
  * Created by Qona'ah on 9/13/2016.
  */
 
-public class UbahDoaActivity extends AppCompatActivity implements RecycleDoaActivity.onClickListener {
+public class UbahDoaActivity extends AppCompatActivity implements RecycleDoaAdapter.onClickListener {
 
     private RecyclerView recyclerView;
     private List<Hari> haris = new ArrayList<>();
     private DatabaseHelper databaseHelper;
-    private RecycleDoaActivity recycleDoaActivity;
+    private RecycleDoaAdapter recycleDoaActivity;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class UbahDoaActivity extends AppCompatActivity implements RecycleDoaActi
         databaseHelper = DatabaseHelper.getInstance(this);
         haris = databaseHelper.selectDoa();
 
-        recycleDoaActivity = new RecycleDoaActivity(haris);
+        recycleDoaActivity = new RecycleDoaAdapter(haris);
         recycleDoaActivity.setOnClickListener(this);
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view_doa);

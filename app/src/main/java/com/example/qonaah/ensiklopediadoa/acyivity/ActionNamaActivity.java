@@ -35,7 +35,8 @@ public class ActionNamaActivity extends AppCompatActivity implements View.OnClic
     @Override
     public void onClick(View view) {
         if (view.getId() == buttonHapus.getId()){
-            /*startActivity(new Intent(this, AddContentNamaActivity.class));*/
+            Intent intent = new Intent(this, HapusNamaActivity.class);
+            startActivity(intent);
         }
 
         if (view.getId() == buttonUbah.getId()){

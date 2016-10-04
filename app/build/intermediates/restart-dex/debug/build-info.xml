@@ -1,42 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    api-level="22"
+    api-level="19"
+    density="hdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="4513720338304"
+    timestamp="93344230508175"
     token="6554694127741297802"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="623" />
+        duration="2676" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="86" />
+        duration="3177" />
     <task
         name="verifier"
-        duration="14" />
+        duration="821" />
 
     <artifact
-        location="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
+        location="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="4411378086420"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="93344230508175"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="4513720338304"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="E:\ANDROID STUDIO PROJECT\EnsiklopediaDoa\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

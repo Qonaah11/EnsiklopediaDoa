@@ -60,7 +60,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             "(" +
             KEY_ID + " INTEGER PRIMARY KEY," + // Define a primary key
             KEY_NAMA + " TEXT," +
-            KEY_VIDEO+ " TEXT," +
+            KEY_VIDEO + " TEXT," +
             KEY_KETERANGAN + " TEXT" +
             ")";
 
@@ -129,6 +129,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         return result;
     }
+
     public int ubahDoa(Hari param) {
         SQLiteDatabase database = this.getWritableDatabase();
 
@@ -138,6 +139,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         values.put(KEY_KETERANGAN, param.getKeterangan());
 
         return database.update(TABLE_DOA, values, KEY_ID + " = ?", new String[]{String.valueOf(param.getId())});
+    }
+
+    public boolean hapusDoa(Hari hari) {
+        SQLiteDatabase database = this.getWritableDatabase();
+        return database.delete(TABLE_NAMA, KEY_ID + "=" + hari.getId(), null) > 0;
     }
 
     public int simpanNama(Nama param) {
@@ -162,7 +168,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return result;
     }
 
-
     public int ubahNama(Nama param) {
         SQLiteDatabase database = this.getWritableDatabase();
 
@@ -173,6 +178,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         return database.update(TABLE_NAMA, values, KEY_ID + " = ?", new String[]{String.valueOf(param.getId())});
     }
+
+    public boolean hapusNama(Nama nama) {
+        SQLiteDatabase database = this.getWritableDatabase();
+        return database.delete(TABLE_NAMA, KEY_ID + "=" + nama.getId(), null) > 0;
+    }
+
     public int simpanShiroh(Shiroh param) {
         int result = 0;
         SQLiteDatabase database = getWritableDatabase();
@@ -194,6 +205,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         return result;
     }
+
     public int ubahShiroh(Shiroh param) {
         SQLiteDatabase database = this.getWritableDatabase();
 
@@ -203,6 +215,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         values.put(KEY_KETERANGAN, param.getKeterangan());
 
         return database.update(TABLE_SHIROH, values, KEY_ID + " = ?", new String[]{String.valueOf(param.getId())});
+    }
+
+    public boolean hapusShiroh(Shiroh shiroh) {
+        SQLiteDatabase database = this.getWritableDatabase();
+        return database.delete(TABLE_SHIROH, KEY_ID + "=" + shiroh.getId(), null) > 0;
     }
 
     // TODO FIND CONTENT
@@ -234,6 +251,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         return categories;
     }
+
     public List<Nama> selectNama() {
         List<Nama> categories = new ArrayList<>();
         String SELECT_QUERY = "SELECT * FROM " + TABLE_NAMA + " ";

@@ -57,7 +57,6 @@ public class SubShirohActivity extends AppCompatActivity implements RecycleShiro
 
     @Override
     public void OnKlikListener(View view, int position) {
-        Toast.makeText(this, "klik", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, DetailShirohActivity.class);
         intent.putExtra("shiroh", shirohs.get(position));
         startActivity(intent);

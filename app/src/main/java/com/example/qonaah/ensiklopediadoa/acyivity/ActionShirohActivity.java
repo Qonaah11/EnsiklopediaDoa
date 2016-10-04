@@ -35,7 +35,8 @@ public class ActionShirohActivity extends AppCompatActivity implements View.OnCl
     @Override
     public void onClick(View view) {
         if (view.getId() == buttonHapus.getId()){
-            /*startActivity(new Intent(this, AddContentNamaActivity.class));*/
+            Intent intent = new Intent(this, HapusShirohActivity.class);
+            startActivity(intent);
         }
 
         if (view.getId() == buttonUbah.getId()){

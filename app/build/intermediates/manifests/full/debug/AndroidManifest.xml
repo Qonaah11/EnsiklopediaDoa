@@ -39,6 +39,9 @@
         <activity android:name="com.example.qonaah.ensiklopediadoa.acyivity.UbahDoaActivity" />
         <activity android:name="com.example.qonaah.ensiklopediadoa.acyivity.ActionShirohActivity" />
         <activity android:name="com.example.qonaah.ensiklopediadoa.acyivity.UbahShirohActivity" />
+        <activity android:name="com.example.qonaah.ensiklopediadoa.acyivity.HapusShirohActivity" />
+        <activity android:name="com.example.qonaah.ensiklopediadoa.acyivity.HapusDoaActivity" />
+        <activity android:name="com.example.qonaah.ensiklopediadoa.acyivity.HapusNamaActivity" />
     </application>
 
 </manifest>

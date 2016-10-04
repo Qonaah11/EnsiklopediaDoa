@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.qonaah.ensiklopediadoa.R;
-import com.example.qonaah.ensiklopediadoa.adapter.RecycleDoaActivity;
+import com.example.qonaah.ensiklopediadoa.adapter.RecycleDoaAdapter;
 import com.example.qonaah.ensiklopediadoa.model.Hari;
 import com.example.qonaah.ensiklopediadoa.service.DatabaseHelper;
 
@@ -22,7 +22,7 @@ import java.util.List;
  * Created by Qona'ah on 9/13/2016.
  */
 
-public class SubDoaActivity extends AppCompatActivity implements RecycleDoaActivity.onClickListener {
+public class SubDoaActivity extends AppCompatActivity implements RecycleDoaAdapter.onClickListener {
 
     private RecyclerView recyclerView;
     private List<Hari> haris = new ArrayList<>();
@@ -37,7 +37,7 @@ public class SubDoaActivity extends AppCompatActivity implements RecycleDoaActiv
         haris = databaseHelper.selectDoa();
 
 
-        RecycleDoaActivity recycleDoaActivity = new RecycleDoaActivity(haris);
+        RecycleDoaAdapter recycleDoaActivity = new RecycleDoaAdapter(haris);
         recycleDoaActivity.setOnClickListener(this);
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view_doa);

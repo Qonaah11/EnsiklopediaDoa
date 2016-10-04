@@ -35,7 +35,8 @@ public class ActionDoaActivity extends AppCompatActivity implements View.OnClick
     @Override
     public void onClick(View view) {
         if (view.getId() == buttonHapus.getId()){
-            /*startActivity(new Intent(this, AddContentNamaActivity.class));*/
+            Intent intent = new Intent(this, HapusDoaActivity.class);
+            startActivity(intent);
         }
 
         if (view.getId() == buttonUbah.getId()){
