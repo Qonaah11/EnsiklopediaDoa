@@ -24,6 +24,10 @@
         "source": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
+        "merged": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shiroh.jpg",
+        "source": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\src\\main\\res\\drawable\\shiroh.jpg"
+    },
+    {
         "merged": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
@@ -64,6 +68,14 @@
         "source": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
+        "merged": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\doa.png",
+        "source": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\src\\main\\res\\drawable\\doa.png"
+    },
+    {
+        "merged": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\malaikat.jpg",
+        "source": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\src\\main\\res\\drawable\\malaikat.jpg"
+    },
+    {
         "merged": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
@@ -82,6 +94,10 @@
     {
         "merged": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bunda.jpg",
+        "source": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\src\\main\\res\\drawable\\bunda.jpg"
     },
     {
         "merged": "E:\\ANDROID STUDIO PROJECT\\EnsiklopediaDoa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",

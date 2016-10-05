@@ -25,65 +25,32 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/image_satu"
-        android:layout_width="100dp"
+        android:layout_width="143dp"
         android:layout_height="150dp"
+        android:src="@drawable/shiroh"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/iman"
-        app:civ_border_color="#FF000000"
-        app:civ_border_width="2dp" />
-
-    <TextView
-        android:id="@+id/text1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/image_satu"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-20sp"
-        android:padding="5dp"
-        android:text="Shiroh"
-        android:textSize="20sp"
-       android:textColor="@color/white" />
-
-    <TextView
-        android:id="@+id/text_dua"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/image_islam"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-20sp"
-        android:text=" Nama dan Tugas Malaikat"
-        android:textSize="20sp"
-        android:textColor="@color/white" />
-
-    <TextView
-        android:id="@+id/text_tiga"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/image_iman"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-15sp"
-        android:text="Doa Harian"
-        android:textSize="20sp"
-        android:textColor="@color/white" />
-
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/image_islam"
-        android:layout_width="100dp"
-        android:layout_height="150dp"
-        android:src="@drawable/islam"
-        android:layout_below="@+id/image_satu"
-        android:layout_alignLeft="@+id/image_satu"
-        android:layout_alignStart="@+id/image_satu" />
+        android:layout_marginTop="15dp" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/image_iman"
-        android:layout_width="100dp"
+        android:layout_width="149dp"
         android:layout_height="150dp"
         android:src="@drawable/doa"
         android:layout_below="@+id/image_islam"
-        android:layout_alignLeft="@+id/text_tiga"
-        android:layout_alignStart="@+id/text_tiga" />
+        android:layout_alignRight="@+id/image_satu"
+        android:layout_alignEnd="@+id/image_satu"
+        android:layout_marginTop="14dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_islam"
+        android:layout_width="144dp"
+        android:layout_height="150dp"
+        android:src="@drawable/malaikat"
+        android:layout_below="@+id/image_satu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp" />
 
 </RelativeLayout>
